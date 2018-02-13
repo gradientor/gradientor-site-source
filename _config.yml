@@ -1,0 +1,22 @@
+# Site settings
+title: gradientor.ai | Pragmatic autonomous driving with modern computer vision
+description: We develop advanced driver assistance and autonomous driving systems, based on computer vision and modern machine learning.
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+url: "http://gradientor.ai"
+
+# User settings
+username: gradientor.ai
+user_description: user description goes here
+user_title: pragmatic autonomous driving
+email: inbox-in-settings@gradientor.ai
+twitter_username: gradientor_ai
+github_username:  gradientor_ai
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
+
+sass:
+    style: compressed

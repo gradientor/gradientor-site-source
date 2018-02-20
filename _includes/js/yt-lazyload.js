@@ -1,4 +1,3 @@
-// YT lazyload snippet from https://webdesign.tutsplus.com/tutorials/how-to-lazy-load-embedded-youtube-videos--cms-26743
 var youtube = document.querySelectorAll( ".youtube" );
 for (var i = 0; i < youtube.length; i++) {
   var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg"; 

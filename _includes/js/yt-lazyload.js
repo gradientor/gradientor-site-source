@@ -1,6 +1,6 @@
 var youtube = document.querySelectorAll( ".youtube" );
 for (var i = 0; i < youtube.length; i++) {
-  var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg"; 
+  var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/hqdefault.jpg";
   var image = new Image();
   image.src = source;
   image.addEventListener( "load", function() {
